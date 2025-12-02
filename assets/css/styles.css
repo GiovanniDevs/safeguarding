@@ -24,7 +24,8 @@ h3 {
   color: var(--primary-color);
 }
 
-/* Navigation */
+/* Header */
 
-nav .li {
+.hero {
+  background: url("../images/meer.webp") no-repeat center center / cover;
 }
