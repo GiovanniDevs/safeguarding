@@ -24,6 +24,12 @@ h3 {
   color: var(--primary-color);
 }
 
+/* Custom styles classes */
+
+.text-shadow {
+  text-shadow: 2px 2px 8px #000000;
+}
+
 .backgroud-secondary {
   background-color: var(--secondary-color);
 }
