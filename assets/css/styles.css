@@ -6,7 +6,7 @@
   --primary-font: "Merriweather", serif; /* Body text */
   --secondary-font: "Lato", sans-serif; /* Headings */
   --primary-color: #508991; /* light teal */
-  --secondary-color: #3e363f; /* light charcoal */
+  --secondary-color: #2d5357; /* light charcoal */
   --highlight-color: #cde7b0; /* lightgreen */
   /* --highlight-color-light: #7a9fc2; light blue */
 }
@@ -24,8 +24,46 @@ h3 {
   color: var(--primary-color);
 }
 
+.backgroud-secondary {
+  background-color: var(--secondary-color);
+}
+
+/* Buttons custom styles */
+
+.custom-but-outline {
+  border: 2px solid var(--highlight-color);
+  padding: 7px 25px;
+  color: var(--highlight-color);
+}
+
+.custom-but-outline:hover {
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+.custom-but-fill {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  padding: 7px 25px;
+  color: var(--highlight-color);
+}
+
+.custom-but-fill:hover {
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+/* Navbar */
+
 /* Header */
 
 .hero {
   background: url("../images/meer.webp") no-repeat center center / cover;
+  color: white;
+}
+
+.hero h1 {
+  color: white;
 }
