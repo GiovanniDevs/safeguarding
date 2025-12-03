@@ -5,7 +5,7 @@
 :root {
   --primary-font: "Merriweather", serif; /* Body text */
   --secondary-font: "Lato", sans-serif; /* Headings */
-  --primary-color: #508991; /* light teal */
+  --primary-color: #477981; /* light teal */
   --secondary-color: #2d5357; /* light charcoal */
   --highlight-color: #cde7b0; /* lightgreen */
   /* --highlight-color-light: #7a9fc2; light blue */
@@ -43,11 +43,16 @@ h3 {
 }
 
 .bg-light-grey {
-  background-color: #c5c5c55e;
+  background-color: #f9f9f9;
 }
 
 .section {
   margin-top: 3rem;
+}
+
+.card {
+  border: 1px solid var(--secondary-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 /* Buttons custom styles */
@@ -113,7 +118,7 @@ h3 {
 .hero h1 {
   color: white;
 }
-/* Signs Section -------------------------------------------------------- */
+/* Signs Section ---------------------------------------------------------- */
 #signs .card {
   margin-bottom: 1.5rem;
 }
@@ -128,9 +133,14 @@ h3 {
   width: auto;
   margin-top: auto;
 }
+/* Action Section  ---------------------------------------------------------*/
+#actions .card {
+  margin-bottom: 1.5rem;
+}
 
 /* Media queries -----------------------------------------------------------*/
 
+/* Small screen --------------------------------------------------*/
 @media screen and (min-width: 320px) {
   .hero {
     height: 450px;
@@ -141,6 +151,8 @@ h3 {
     line-height: 1.45;
   }
 }
+
+/* Teblets  -----------------------------------------------------*/
 
 @media screen and (min-width: 768px) {
   .hero {
@@ -157,13 +169,26 @@ h3 {
   }
 
   /* Makes card aligning */
+
   #signs .card-body {
     min-height: 270px;
   }
+
+  #actions .card-body {
+    min-height: 267px;
+  }
 }
 
+/* Large screens  -----------------------------------------------------*/
+
 @media screen and (min-width: 992px) {
+  /* Cards alignment */
+
   #signs .card-body {
     min-height: 244px;
+  }
+
+  #actions .card-body {
+    min-height: 220px;
   }
 }
