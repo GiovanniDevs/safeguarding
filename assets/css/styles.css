@@ -26,7 +26,8 @@ h3 {
 
 .h1,
 .h2,
-.h3 {
+.h3,
+.h4 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
@@ -39,6 +40,14 @@ h3 {
 
 .backgroud-secondary {
   background-color: var(--secondary-color);
+}
+
+.bg-light-grey {
+  background-color: #c5c5c55e;
+}
+
+.section {
+  margin-top: 3rem;
 }
 
 /* Buttons custom styles */
@@ -86,7 +95,21 @@ h3 {
 .hero h1 {
   color: white;
 }
-/* What is it Section -------------------------------------------------------- */
+/* Signs Section -------------------------------------------------------- */
+#signs .card {
+  margin-bottom: 1.5rem;
+}
+
+#signs .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+#signs .card-body .btn {
+  align-self: start; /* or center / end */
+  width: auto;
+  margin-top: auto;
+}
 
 /* Media queries -----------------------------------------------------------*/
 
@@ -113,5 +136,16 @@ h3 {
 
   #carousel {
     order: -1;
+  }
+
+  /* Makes card aligning */
+  #signs .card-body {
+    min-height: 270px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #signs .card-body {
+    min-height: 244px;
   }
 }
