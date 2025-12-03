@@ -84,15 +84,15 @@ h3 {
 }
 
 #active-outline.custom-but-outline:active {
-  border: 2px solid white;
+  border: 2px solid var(--secondary-color);
   background-color: white;
-  color: black;
+  color: var(--secondary-color);
 }
 
 .active-fill.custom-but-fill:active {
-  border: 2px solid white;
+  border: 2px solid var(--secondary-color);
   background-color: white;
-  color: black;
+  color: var(--secondary-color);
 }
 
 /* Navbar ------------------------------------------------------------------*/
