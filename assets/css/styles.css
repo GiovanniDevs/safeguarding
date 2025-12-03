@@ -13,6 +13,11 @@
 
 /* Global styles */
 
+html {
+  /* Add some padding when scrolling to anchors in order for the navbar to not cover the section title */
+  scroll-padding-top: 80px;
+}
+
 body {
   font-family: var(--primary-font);
   margin-top: 76px;
