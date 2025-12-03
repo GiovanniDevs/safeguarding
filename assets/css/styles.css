@@ -64,6 +64,12 @@ h3 {
   color: var(--secondary-color);
 }
 
+.custom-but-outline:active {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+}
+
 .custom-but-fill {
   border: 2px solid var(--secondary-color);
   background-color: var(--secondary-color);
@@ -72,9 +78,21 @@ h3 {
 }
 
 .custom-but-fill:hover {
-  border: 2px solid var(--highlight-color);
   background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
   color: var(--secondary-color);
+}
+
+#active-outline.custom-but-outline:active {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+}
+
+.active-fill.custom-but-fill:active {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
 }
 
 /* Navbar ------------------------------------------------------------------*/
