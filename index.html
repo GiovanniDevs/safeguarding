@@ -475,7 +475,54 @@
           </div>
         </div>
       </section>
-      <!-- Form Section -->
+      <!-- Contact Form Section -->
+
+    <section id="contact" class="container-fluid section bg-light-grey">
+      <div class="container py-4 pt-md-5">
+        <div class="row">
+          <div class="col-12 mb-4 text-center">
+            <h2 class="h1 fw-bold">Report a concern or get in touch</h2>
+          </div>
+        </div>
+        <div class="row g-4 align-items-start">
+          <!-- Left: Form -->
+          <div class="col-12 col-lg-6">
+            <form action="confirmation.html" method="get">
+              <div class="form-floating mb-3">
+                <label for="fullName" class="form-label">Full name (optional)</label>
+                <input type="text" id="fullName" name="fullName" class="form-control" >
+              </div>
+              <div class="form-floating mb-3">
+                <label for="phone" class="form-label">Phone number (optional)</label>
+                <input type="tel" id="phone" name="phone" class="form-control" inputmode="tel" placeholder="+44 1234 567890">
+              </div>
+              <div class="form-floating mb-3">
+                <label for="email" class="form-label">Email address (optional)</label>
+                <input type="email" id="email" name="email" class="form-control" >
+              </div>
+              <div class="form-floating mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-control" style="height: 150px" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary custom-but-fill active-fill">Send</button>
+            </form>
+          </div>
+          <!-- Right: Privacy blurb -->
+          <div class="col-12 col-lg-6">
+            <div class="px-lg-4">
+              <h3 class="h4">Privacy and anonymity</h3>
+              <p>
+                We take your privacy seriously. Share as much or as little information as you feel comfortable with.
+                If you prefer, you may leave your name and phone number blank and we will process your message anonymously.
+              </p>
+              <p>
+                Avoid including highly sensitive details that could put you or others at risk. If someone is in immediate danger, call <strong>999</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
       <!-- Emergency section --------------------------------------------------->
       <section id="emergency" class="container-fluid">
         <div class="row">
@@ -500,6 +547,8 @@
         </div>
       </section>
     </main>
+
+
     <!-- Footer -------------------------------------------------------------->
      <section id="footer" class="container-fluid">
         <div class="row">
