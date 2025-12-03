@@ -75,7 +75,10 @@ h3 {
 .hero h1 {
   color: white;
 }
-
+/* What it Section -------------------------------------------------------- */
+/* section.what-is {
+  border-width: 2px;
+} */
 /* Media queries -----------------------------------------------------------*/
 
 @media screen and (min-width: 320px) {
