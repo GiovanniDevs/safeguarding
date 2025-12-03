@@ -24,6 +24,13 @@ h3 {
   color: var(--primary-color);
 }
 
+.h1,
+.h2,
+.h3 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+
 /* Custom styles classes */
 
 .text-shadow {
@@ -85,10 +92,20 @@ h3 {
   .hero {
     height: 450px;
   }
+
+  main {
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
     height: 600px;
+  }
+
+  main {
+    font-size: 1rem;
+    line-height: 1.6;
   }
 }
