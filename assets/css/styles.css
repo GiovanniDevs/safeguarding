@@ -138,6 +138,21 @@ h3 {
   margin-bottom: 1.5rem;
 }
 
+/* Emergency Section ------------------------------------------------------ */
+
+/* .card-emergency {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+} */
+
+#emergency {
+  background-color: var(--secondary-color);
+}
+
+#emergency * {
+  color: white;
+}
+
 /* Media queries -----------------------------------------------------------*/
 
 /* Small screen --------------------------------------------------*/
