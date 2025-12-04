@@ -148,13 +148,13 @@ h3 {
   background-color: white;
   color: var(--secondary-color);
 }
-/* Navbar ------------------------------------------------------------------*/
+/* Navbar */
 
 #logo {
   height: 50px;
 }
 
-/* Header ------------------------------------------------------------------*/
+/* Header */
 
 .hero {
   background: url("../images/meer.webp") no-repeat center center / cover;
@@ -167,7 +167,7 @@ h3 {
   color: white;
 }
 
-/* Signs Section ---------------------------------------------------------- */
+/* Signs Section */
 #signs .card {
   margin-bottom: 1.5rem;
 }
@@ -182,12 +182,12 @@ h3 {
   width: auto;
   margin-top: auto;
 }
-/* Action Section  ---------------------------------------------------------*/
+/* Action Section  */
 #actions .card {
   margin-bottom: 1.5rem;
 }
 
-/* Emergency Section ------------------------------------------------------ */
+/* Emergency Section  */
 
 #emergency {
   background-color: var(--secondary-color);
@@ -197,7 +197,7 @@ h3 {
   color: white;
 }
 
-/* Footer ---------------------------------------------------------------- */
+/* Footer */
 
 #footer {
   background-color: #2e2e2e;
@@ -213,13 +213,18 @@ h3 {
   padding: 0 10px;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 #footer h6 {
   font-size: 80%;
 }
 
-/* Media queries -----------------------------------------------------------*/
+/* Media queries */
 
-/* Small screen --------------------------------------------------*/
+/* Small screen*/
 @media screen and (min-width: 320px) {
   .hero {
     height: 450px;
@@ -235,7 +240,7 @@ h3 {
   }
 }
 
-/* Teblets  -----------------------------------------------------*/
+/* Teblets  */
 
 @media screen and (min-width: 768px) {
   .hero {
@@ -262,7 +267,7 @@ h3 {
   }
 }
 
-/* Large screens  -----------------------------------------------------*/
+/* Large screens  */
 
 @media screen and (min-width: 992px) {
   /* Cards alignment */
