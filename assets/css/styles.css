@@ -197,7 +197,26 @@ h3 {
   color: white;
 }
 
-/* Custom white line */
+/* Footer ---------------------------------------------------------------- */
+
+#footer {
+  background-color: #2e2e2e;
+}
+
+#footer * {
+  color: white;
+}
+
+#footer a {
+  font-size: 200%;
+  padding: 0 10px;
+}
+
+#footer p {
+  font-size: 80%;
+}
+
+/* Custom white line
 .white-hr {
   border: 0;
   height: 2px;
@@ -206,7 +225,7 @@ h3 {
   margin-right: auto;
   margin-bottom: 2rem;
   background-color: #fff;
-}
+} */
 
 /* Media queries -----------------------------------------------------------*/
 
