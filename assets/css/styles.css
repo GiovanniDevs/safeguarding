@@ -89,10 +89,17 @@ h3 {
 }
 
 .custom-but-fill:hover {
-  background-color: var(--highlight-color);
+  background-color: var(--secondary-color);
   border-color: var(--highlight-color);
+  color: var(--highlight-color);
+}
+
+.btn.custom-but-fill:active {
+  border: 2px solid white;
+  background-color: white;
   color: var(--secondary-color);
 }
+/* Custom style for navbar button */
 
 #active-outline.custom-but-outline:active {
   border: 2px solid var(--secondary-color);
@@ -100,12 +107,47 @@ h3 {
   color: var(--secondary-color);
 }
 
-.active-fill.custom-but-fill:active {
-  border: 2px solid var(--secondary-color);
+/* Reverse color fill button */
+
+.custom-but-refill {
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  padding: 7px 25px;
+  color: var(--secondary-color);
+}
+
+.custom-but-refill:hover {
+  background-color: var(--highlight-color);
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn.custom-but-refill:active {
+  border: 2px solid white;
   background-color: white;
   color: var(--secondary-color);
 }
 
+/* Main section fill buttons styles */
+
+.custom-but-main {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  padding: 7px 25px;
+  color: var(--highlight-color);
+}
+
+.custom-but-main:hover {
+  background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+.btn.custom-but-main:active {
+  border: 2px solid white;
+  background-color: white;
+  color: var(--secondary-color);
+}
 /* Navbar ------------------------------------------------------------------*/
 
 #logo {
@@ -124,6 +166,7 @@ h3 {
 .hero h1 {
   color: white;
 }
+
 /* Signs Section ---------------------------------------------------------- */
 #signs .card {
   margin-bottom: 1.5rem;
@@ -176,6 +219,10 @@ h3 {
   main {
     font-size: 0.9rem;
     line-height: 1.45;
+  }
+
+  #carousel .carousel-inner {
+    border-radius: 0.75rem;
   }
 }
 
